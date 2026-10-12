@@ -52,6 +52,8 @@ src/ tests/     sample modular-monolith skeleton and self-tests for the guardrai
 `make verify` - all governance checks (also run by CI) - `make wizard` - `make setup-check` (Gate 4) - `make render-wizard`.
 Requires Python 3.9+, Bash and GNU Make for the make commands. Without Make, use `bash scripts/verify_all.sh` with `PYTHON` set to your Python executable. On Windows use Git Bash; Python remains a native executable. `docs/governance/enforcement-status.md` lists the exact verification state of every control; `docs/governance/verification-report.md` records what was and was not run when this kit was built.
 
+Pull requests use the [PR template](.github/pull_request_template.md). Record the commands you ran and their results so reviewers can assess the verification evidence.
+
 ## Known limits
 - The sample `src/` is a skeleton to demonstrate the module guardrail; it is not your application.
 - Stack-specific CI commands are examples that must be run against your real project at Gate 4.
