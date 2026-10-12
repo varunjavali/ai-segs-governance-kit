@@ -1,0 +1,17 @@
+# Local owner assignment supplied by the user: @varunjavali. Review ownership at Gate 4.
+# Last matching pattern wins. Enable "Require review from Code Owners" in branch protection.
+*                                   @varunjavali
+/docs/architecture/                 @varunjavali
+/docs/governance/                   @varunjavali
+/docs/security/                     @varunjavali
+/docs/roadmap/                      @varunjavali
+/docs/deployment/                   @varunjavali
+/docs/operations/                   @varunjavali
+/.github/                           @varunjavali
+/scripts/                           @varunjavali
+/AGENTS.md                          @varunjavali
+/CLAUDE.md                          @varunjavali
+/src/modules/billing/               @varunjavali
+/src/modules/orders/                @varunjavali
+/src/modules/shared/                @varunjavali
+# Add: database migrations, infrastructure code, design tokens, shared components, API contracts.

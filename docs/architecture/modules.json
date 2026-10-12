@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "_comment": "Canonical module map. Changing this file changes the architecture: it needs an ADR and Technical Owner approval (see .github/CODEOWNERS). Replace the example modules with yours at Gate 3/4.",
+  "source_root": "src/modules",
+  "aliases": ["@modules/"],
+  "public_entry_names": ["index", "__init__"],
+  "public_dirs": ["public"],
+  "modules": {
+    "shared":  {"owner": "@varunjavali", "purpose": "Cross-cutting utilities and types with no business logic", "allowed_dependencies": []},
+    "billing": {"owner": "@varunjavali", "purpose": "Invoices and payments (example module)", "allowed_dependencies": ["shared"]},
+    "orders":  {"owner": "@varunjavali", "purpose": "Order lifecycle (example module)", "allowed_dependencies": ["shared", "billing"]}
+  },
+  "forbidden_imports": [
+    {"pattern": "^(express|fastify|koa|@nestjs/.*|flask|django.*|fastapi)$", "applies_to_modules": ["shared"], "reason": "shared must stay framework-independent (example rule; adapt to your stack)"}
+  ]
+}

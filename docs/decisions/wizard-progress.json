@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "questions_sha256": "c56764257b983daff2981c0071e3f209230080884868479713994c5f5d409188",
+  "completed": true,
+  "answers": [
+    {
+      "id": "Q01",
+      "decision": "Small software teams using AI coding assistants struggle with inconsistent code, unclear requirements, regressions, and conflicting changes. We want a guided governance toolkit that helps founders and developers plan, review, test, and release software with clear ownership and approval gates.",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q02",
+      "decision": "Founder/product owner: define goals, prioritize MVP features, clarify requirements, approve scope. Developer: read approved tasks, implement changes, run tests, submit PRs. Reviewer/module owner: approve task readiness, review changes, verify evidence, protect module boundaries. Technical Owner: approve architecture, define quality targets, resolve conflicts, oversee safeguards. Release Approver/operations owner: assess release readiness, approve releases, monitor service health, coordinate rollback.",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q03",
+      "decision": "Within 30 days, all active developers use the approved task workflow and PR checklist. Within 60 days, every PR runs governance checks and application tests, with required human reviews before merging. Within 90 days, reduce regression defects found after merging by 30% compared with the first 30-day baseline.",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q04",
+      "decision": "A - Responsive web only",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q05",
+      "decision": "MVP 1 needs guided project discovery with save/resume, requirements and feature tracking, seven-block task templates, architecture checks, PR metadata validation, human approval records, verification reports, and installation guidance. Git integration supplies changed-file evidence; GitHub integration provides CI checks and branch protection after authorized setup. No payments, email/SMS, external identity provider, or production deployment automation is required for MVP 1.",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q06",
+      "decision": "FEAT-001 guided project discovery with save/resume; FEAT-002 requirements, MVP scope, and feature register validation; FEAT-003 seven-block task templates and approval metadata checks; FEAT-004 architecture boundary checks; FEAT-005 PR validation using actual changed files and verification evidence; FEAT-006 local verification and GitHub CI configuration; FEAT-007 branch-protection setup and verification guidance.",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q07",
+      "decision": "MVP 1 non-goals: web dashboard, mobile app, payments, email/SMS notifications, external identity integration, automatic human approvals, live repository changes without authorization, and production deployment automation. MVP 2 candidates: a read-only governance dashboard, traceability reports linking requirements to PRs and test results, and adapters for additional repository platforms. Candidates remain unapproved until assessed and prioritized.",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q08",
+      "decision": "A - Under 100 users; a few concurrent",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q09",
+      "decision": "A - Best effort during business hours",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q10",
+      "decision": "A - RPO 24 hours / RTO 8 hours",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q11",
+      "decision": "B - Personal data (names, emails, phone numbers)",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q12",
+      "decision": "D - Other (explain): Repository-based toolkit with modular Python CLI scripts and GitHub Actions configuration. No hosted application, database, or distributed services in MVP 1.",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q13",
+      "decision": "D - Other (specify): Python 3.12+ for governance CLI scripts, Git for version control, Bash for verification scripts, and GitHub Actions for CI. No application frontend, backend server, or database in MVP 1. TypeScript sample modules are demonstrations only.",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q14",
+      "decision": "Other: GitHub repository and GitHub Actions, with local CLI execution. No application hosting or database is needed for MVP 1.",
+      "source": "chosen-other",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q15",
+      "decision": "Team: [number] developers \u2014 [number] beginner, [number] intermediate, [number] senior. MVP 1 target: [date]. Monthly infrastructure budget: [amount and currency], covering repository/CI usage and backups.",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q16",
+      "decision": "Other: Use GitHub accounts for repository access, with MFA, team permissions, CODEOWNERS, and required human reviews. Local CLI access follows operating-system permissions. No separate application login in MVP 1.",
+      "source": "chosen-other",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q17",
+      "decision": "C - Other (specify): No application API or database in MVP 1. Define CLI arguments, exit codes, configuration formats, and saved wizard-state format as documented interfaces. Keep each governance record in one canonical file with a named owner; changes to these interfaces require review and compatibility checks.",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q18",
+      "decision": "Other: Run validator unit/regression tests, CLI integration tests, and complete wizard save/resume journeys on every PR. Include valid-input cases, malformed-input rejection, mocked GitHub responses, documentation/configuration checks, shell checks, and ZIP extraction verification before release. Governance tests do not prove application behavior or production readiness.",
+      "source": "chosen-other",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q19",
+      "decision": "A - GitHub",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q20",
+      "decision": "Technical Owner: [varun]; backup: [varun]. Release Approver: [varun]; backup: [varun].",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q21",
+      "decision": "A - 1 approving review + code-owner approval on owned paths",
+      "source": "chosen",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q22",
+      "decision": "Other: Local development -> PR CI verification -> fresh ZIP extraction and smoke tests -> versioned kit release. MVP 1 has no deployed application environments. Any future hosted application needs its own approved environment and promotion plan.",
+      "source": "chosen-other",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q23",
+      "decision": "Other: Restore the previous versioned kit ZIP or Git release tag and rerun verification. Back up project records and wizard progress before upgrading; preserve them during rollback and check format compatibility. No application deployment or database rollback in MVP 1.",
+      "source": "chosen-other",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q24",
+      "decision": "Other: Monitor CI failures, failed or interrupted CLI runs, security findings, and repository/CI costs. Retain verification reports and assign a maintainer to triage issues and coordinate fixes or rollback. No hosted-service uptime monitoring in MVP 1.",
+      "source": "chosen-other",
+      "approval": "Pending"
+    },
+    {
+      "id": "Q25",
+      "decision": "A - Monthly budget alert and cost review; monthly dependency updates; quarterly technical-debt review",
+      "source": "chosen",
+      "approval": "Pending"
+    }
+  ]
+}

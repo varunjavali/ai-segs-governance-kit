@@ -1,0 +1,20 @@
+# Optional local layer. Install with: pip install pre-commit && pre-commit install
+# CI (governance.yml) is the authoritative control; hooks only give faster feedback.
+repos:
+  - repo: local
+    hooks:
+      - id: architecture-guardrail
+        name: architecture guardrail
+        entry: python3 scripts/check_architecture.py
+        language: system
+        pass_filenames: false
+      - id: secret-scan
+        name: secret scan
+        entry: python3 scripts/scan_secrets.py
+        language: system
+        pass_filenames: false
+      - id: docs-consistency
+        name: docs consistency
+        entry: python3 scripts/check_docs.py
+        language: system
+        pass_filenames: false
